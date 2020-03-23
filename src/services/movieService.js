@@ -11,7 +11,7 @@ const movies = [
     {
         _id: '2',
         title: 'Die Hard',
-        genre: { _id: '2a', name: 'Action'},
+        genre: { _id: '1a', name: 'Action'},
         numberInStock: 5,
         dailyRentalRate: 2.5
     },
@@ -25,42 +25,42 @@ const movies = [
     {
         _id: '4',
         title: 'Trip to Italy',
-        genre: { _id: '4a', name: 'Comedy'},
+        genre: { _id: '2a', name: 'Comedy'},
         numberInStock: 7,
         dailyRentalRate: 3.5
     },
     {
         _id: '5',
         title: 'Airplane',
-        genre: { _id: '5a', name: 'Comedy'},
+        genre: { _id: '2a', name: 'Comedy'},
         numberInStock: 7,
         dailyRentalRate: 3.5
     },
     {
         _id: '6',
         title: 'Wedding Crashers',
-        genre: { _id: '6a', name: 'Comedy'},
+        genre: { _id: '2a', name: 'Comedy'},
         numberInStock: 7,
         dailyRentalRate: 3.5
     },
     {
         _id: '7',
         title: 'Gone Girl',
-        genre: { _id: '7a', name: 'Thriller'},
+        genre: { _id: '3a', name: 'Thriller'},
         numberInStock: 7,
         dailyRentalRate: 4.5
     },
     {
         _id: '8',
         title: 'The Sixth Sense',
-        genre: { _id: '8a', name: 'Thriller'},
+        genre: { _id: '3a', name: 'Thriller'},
         numberInStock: 4,
         dailyRentalRate: 3.5
     },
     {
         _id: '9',
         title: 'The Avengers',
-        genre: { _id: '9a', name: 'Action'},
+        genre: { _id: '1a', name: 'Action'},
         numberInStock: 7,
         dailyRentalRate: 3.5
     }
