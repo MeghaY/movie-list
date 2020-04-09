@@ -1,9 +1,6 @@
-export const genres = [
-    {_id: '1a', name:'Action'},
-    {_id: '2a', name: 'Comedy'},
-    {_id: '3a', name: 'Thriller'}
-];
+import http from './httpService';
+import { apiUrl } from '../config.json';
 
 export function getGenres() {
-    return genres.filter(g => g);
+    return http.get(apiUrl + '/genres');
 }
